@@ -1,0 +1,73 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "ip": "ip",
+      "mac": "mac",
+      "domain_name": "domain_name",
+      "architecture_name": "architecture_name",
+      "operatingsystem_name": "os_name",
+      "operatingsystem_family": "os_family",
+      "operatingsystem_major": "os_major",
+      "organization_name": "organization",
+      "location_name": "location",
+      "model_name": "model",
+      "errata_status_label": "errata_status",
+      "name": "hostname",
+      "id": "satellite_id",
+      "display_name": "display_name",
+      "uptime_seconds": "uptime_seconds",
+      "reported_data": {
+        "boot_time": "boot_time",
+        "cores": "cpu_cores",
+        "sockets": "cpu_sockets",
+        "ram": "ram_mb",
+        "disks_total": "disks_total",
+        "kernel_version": "kernel_version",
+        "bios_vendor": "bios_vendor",
+        "bios_release_date": "bios_release_date",
+        "bios_version": "bios_version",
+        "virtual": "virtual"
+      },
+      "content_facet_attributes": {
+        "content_source_name": "content_source",
+        "applicable_package_count": "applicable_packages",
+        "upgradable_package_count": "upgradable_packages",
+        "content_view_environment_labels": "content_view_env_label",
+        "errata_counts": {
+          "security": "errata_security",
+          "bugfix": "errata_bugfix",
+          "enhancement": "errata_enhancement",
+          "total": "errata_total",
+          "applicable": {
+            "security": "errata_applicable_security",
+            "bugfix": "errata_applicable_bugfix",
+            "enhancement": "errata_applicable_enhancement",
+            "total": "errata_applicable_total"
+          }
+        },
+        "content_view": {
+          "name": "content_view_name"
+        },
+        "lifecycle_environment": {
+          "name": "lifecycle_env"
+        },
+        "content_view_environments": {
+          "0": {
+            "content_view": {
+              "name": "cve_content_view_name",
+              "composite": "cve_composite",
+              "rolling": "cve_rolling",
+              "content_view_version_latest": "cve_version_latest"
+            },
+            "lifecycle_environment": {
+              "name": "cve_lifecycle_env",
+              "lifecycle_environment_library": "cve_lifecycle_library"
+            },
+            "label": "cve_label"
+          }
+        }
+      }
+    }
+  }
+]

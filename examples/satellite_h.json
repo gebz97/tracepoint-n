@@ -1,0 +1,66 @@
+{
+  "ip" : "192.168.1.244",
+  "mac" : "bc:24:11:b7:86:ac",
+  "domain_name" : "gebz.local",
+  "architecture_name" : "x86_64",
+  "operatingsystem_name" : "Rocky 9.7",
+  "organization_name" : "Default Organization",
+  "location_name" : "Default Location",
+  "model_name" : "Standard PC (i440FX + PIIX, 1996)",
+  "errata_status_label" : "Security errata applicable",
+  "name" : "ansible.gebz.local",
+  "id" : 12,
+  "display_name" : "ansible.gebz.local",
+  "content_facet_attributes" : {
+    "content_source_name" : "foreman.gebz.local",
+    "errata_counts" : {
+      "security" : 50,
+      "bugfix" : 0,
+      "enhancement" : 0,
+      "total" : 50,
+      "applicable" : {
+        "bugfix" : 0,
+        "security" : 50,
+        "enhancement" : 0,
+        "total" : 50
+      }
+    },
+    "applicable_package_count" : 517,
+    "upgradable_package_count" : 517,
+    "content_view_environment_labels" : "Library/rocky-9-rolling",
+    "content_view_environments" : [ {
+      "content_view" : {
+        "name" : "rocky-9-rolling",
+        "composite" : false,
+        "rolling" : true,
+        "content_view_version_latest" : true
+      },
+      "lifecycle_environment" : {
+        "name" : "Library",
+        "lifecycle_environment_library" : true
+      },
+      "label" : "Library/rocky-9-rolling"
+    } ],
+    "content_view" : {
+      "name" : "rocky-9-rolling"
+    },
+    "lifecycle_environment" : {
+      "name" : "Library"
+    }
+  },
+  "reported_data" : {
+    "boot_time" : "2026-06-20 15:38:55 +0300",
+    "cores" : 8,
+    "sockets" : 2,
+    "ram" : 31881,
+    "disks_total" : null,
+    "kernel_version" : "5.14.0-611.55.1.el9_7.x86_64",
+    "bios_vendor" : null,
+    "bios_release_date" : null,
+    "bios_version" : null,
+    "virtual" : true
+  },
+  "uptime_seconds" : 720985,
+  "operatingsystem_family" : "Redhat",
+  "operatingsystem_major" : "9"
+}

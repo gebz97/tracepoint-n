@@ -1,0 +1,97 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "ip": "ip",
+      "mac": "mac",
+      "domain_name": "domain_name",
+      "architecture_name": "architecture_name",
+      "operatingsystem_name": "operatingsystem_name",
+      "organization_name": "organization_name",
+      "location_name": "location_name",
+      "model_name": "model_name",
+      "errata_status_label": "errata_status_label",
+      "name": "name",
+      "id": "id",
+      "display_name": "display_name",
+      "content_facet_attributes": {
+        "content_source_name": "content_facet_attributes.content_source_name",
+        "errata_counts": "content_facet_attributes.errata_counts",
+        "applicable_package_count": "content_facet_attributes.applicable_package_count",
+        "upgradable_package_count": "content_facet_attributes.upgradable_package_count",
+        "content_view_environment_labels": "content_facet_attributes.content_view_environment_labels",
+        "content_view_environments": {
+          "*": {
+            "content_view": {
+              "name": "content_facet_attributes.content_view_environments[&2].content_view.name",
+              "composite": "content_facet_attributes.content_view_environments[&2].content_view.composite",
+              "rolling": "content_facet_attributes.content_view_environments[&2].content_view.rolling",
+              "content_view_version_latest": "content_facet_attributes.content_view_environments[&2].content_view.content_view_version_latest"
+            },
+            "lifecycle_environment": {
+              "name": "content_facet_attributes.content_view_environments[&2].lifecycle_environment.name",
+              "lifecycle_environment_library": "content_facet_attributes.content_view_environments[&2].lifecycle_environment.lifecycle_environment_library"
+            },
+            "label": "content_facet_attributes.content_view_environments[&1].label"
+          }
+        },
+        "content_view": {
+          "name": "content_facet_attributes.content_view.name"
+        },
+        "lifecycle_environment": {
+          "name": "content_facet_attributes.lifecycle_environment.name"
+        }
+      },
+      "reported_data": "reported_data",
+      "uptime_seconds": "uptime_seconds",
+      "operatingsystem_family": "operatingsystem_family",
+      "operatingsystem_major": "operatingsystem_major"
+    }
+  },
+  {
+    "operation": "shift",
+    "spec": {
+      "ip": "ip",
+      "mac": "mac",
+      "domain_name": "domain_name",
+      "architecture_name": "architecture_name",
+      "operatingsystem_name": "os_name",
+      "operatingsystem_family": "os_family",
+      "operatingsystem_major": "os_major",
+      "organization_name": "organization",
+      "location_name": "location",
+      "model_name": "model",
+      "errata_status_label": "errata_status",
+      "name": "hostname",
+      "id": "id",
+      "display_name": "display_name",
+      "uptime_seconds": "uptime_seconds",
+      "reported_data": {
+        "boot_time": "boot_time",
+        "cores": "cpu_cores",
+        "sockets": "cpu_sockets",
+        "ram": "ram_mb",
+        "disks_total": "disks_total",
+        "kernel_version": "kernel_version",
+        "bios_vendor": "bios_vendor",
+        "bios_release_date": "bios_release_date",
+        "bios_version": "bios_version",
+        "virtual": "virtual"
+      },
+      "content_facet_attributes": {
+        "content_source_name": "content_source",
+        "errata_counts": "errata_counts",
+        "applicable_package_count": "applicable_packages",
+        "upgradable_package_count": "upgradable_packages",
+        "content_view_environment_labels": "content_view_env_label",
+        "content_view_environments": "content_view_environments",
+        "content_view": {
+          "name": "content_view"
+        },
+        "lifecycle_environment": {
+          "name": "lifecycle_env"
+        }
+      }
+    }
+  }
+]
